@@ -1,0 +1,8 @@
+{
+    "name": "pgp-web",
+    "private": true,
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "*",
+        "uikit": "3.2.1"
+    }
+}
