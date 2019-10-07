@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ -z $1 ]
+then
+  port=8082
+else
+  port=$1
+fi
+
+bundle exec rerun -b "bundle exec rackup -p $port "
